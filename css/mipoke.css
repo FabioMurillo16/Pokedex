@@ -1,0 +1,125 @@
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: auto;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background-color: rgb(93, 201, 235);
+    border: none;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(93, 201, 235);
+}
+
+img {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+    border-radius: 100%;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+.screen {
+    width: 300px;
+    height: auto;
+    background-color: rgb(93, 201, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-red1 {
+    width: 300px;
+    height: 120px;
+    background-color: red;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-red2 {
+    width: 300px;
+    height: 120px;
+    background-color: red;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.black-box1 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 200px 200px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-box1 {
+    width: 75px;
+    height: 25px;
+    background-color:  rgb(93, 201, 235);
+    border-radius: 200px 200px 0 0;
+}
+
+
+.black-box2 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius:  0 0 200px 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-box2 {
+    width: 75px;
+    height: 25px;
+    background-color:  rgb(93, 201, 235);
+    border-radius:  0 0 200px 200px;
+}
